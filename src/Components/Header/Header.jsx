@@ -24,7 +24,7 @@ const Header = () => {
                 <div>LOGO</div>
                 <Nav />
                 <div className='Burger'>
-                    {toggle ? FaTime : FiAlignJustif}
+                    {toggle ? FiAlignJustif : FaTime}
                 </div>
 
             </div>
