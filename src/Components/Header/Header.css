@@ -1,38 +1,81 @@
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
-.Header-Cointainer{
-    width: 100%;
-    height: 10%;
+.Header-Cointainer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(174, 171, 171)
+}
+.Header-Wraper {
+  height: 15%;
+  width: 95%;
+  /* background-color: grey; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nav-tab {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+}
+.Burger {
+  display: none;
+}
+@media screen and (max-width: 769px) {
+  .Nav-tab {
+    display: none;
+  }
+  .Burger {
     display: flex;
+  }
+  .slide-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    background-color: #dedede;
+    height: 600px;
+    margin: -25px 0px 0px -191px;
+    width: 200px;
+    position: absolute;
+  }
+}
+.slide-bar1 {
+  /* background-color: grey; */
+  width: 188px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 10px;
+  margin: -5px 0px 0px -3px;
+  border-bottom: 1px solid;
+      border-color:rgb(205, 204, 204);
+}
+.slide-bar2 {
+    /* background-color: white; */
+    width: 181px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 230, 230);
-}
-.Header-Wraper{
-    height: 15%;
-    width: 95%;
-    /* background-color: grey; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.Nav-tab{
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 400px;
-}
-.Burger{
-    display: none;
-}
-@media screen and (max-width:769px){
-    .Nav-tab{
-        display: none;
-    }
-  .Burger{
-      display: block;
+    gap: 25px;
+    padding: 10px;
+    margin-top: -4px;
   }
-
-}
+  .slide-bar2 a{
+      
+      /* background-color: red; */
+      width: 110%;
+      border-bottom: 1px solid;
+      border-color:rgb(205, 204, 204);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }

@@ -19,16 +19,16 @@ const Facebook = () => {
             <div className='face-Header1'>
                 <div className='face-Header-left'>
                     {/* <img style={{ width: 35, height: 35 }} src={logo} /> */}
-                    <BsFacebook fontSize='35'/>
+                    <BsFacebook color="#148EF2" fontSize='35'/>
                     <input className='input'  placeholder='Serach Facebook' />
                 </div>
                 <div className='cont'>
                     <div className='face-Header-middle'>
-                        <MdHome fontSize='35' />
-                        <MdOutlineOndemandVideo fontSize='35' />
-                        <TbBuildingStore fontSize='35' />
-                        <MdGroups fontSize='35' />
-                        <SiFacebookgaming fontSize='30' />
+                        <MdHome  color="grey" fontSize='35' />
+                        <MdOutlineOndemandVideo color="grey" fontSize='35' />
+                        <TbBuildingStore color="grey" fontSize='35' />
+                        <MdGroups color="grey" fontSize='35' />
+                        <SiFacebookgaming color="grey"  fontSize='30' />
                     </div>
                     <div className='face-Header-right'>
                         <BsFillGrid3X3GapFill fontSize='30' />

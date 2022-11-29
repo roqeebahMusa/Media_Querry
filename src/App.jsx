@@ -4,8 +4,8 @@ import Facebook from './Components/Header/Facebook'
 function App() {
   return (
     <div className="App">
-      {/* <Header/> */}
-      <Facebook />
+      <Header/>
+      {/* <Facebook /> */}
     </div>
   )
 }
