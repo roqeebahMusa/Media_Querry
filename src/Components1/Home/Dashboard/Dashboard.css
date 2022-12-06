@@ -1,5 +1,5 @@
 .Dash_Main {
-  min-height: 91vh;
+  min-height: 90vh;
   width: 100%;
   background: linear-gradient(
     to right top,
@@ -229,9 +229,8 @@
   .inputDiv input {
     width: 85%;
   }
+
 }
 @media screen and (min-width: 650px) {
-  .Profile_Menu {
-    display: none;
-  }
+ 
 }
