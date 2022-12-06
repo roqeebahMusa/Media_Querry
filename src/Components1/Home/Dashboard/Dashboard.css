@@ -76,7 +76,7 @@
 }
 .Profile_Menu {
   width: 65%;
-  height: 91.3%;
+  height: 90vh;
   position: absolute;
   backdrop-filter: blur(1.7rem);
   background: linear-gradient(
@@ -84,8 +84,8 @@
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.1)
   );
-  bottom: 0%;
-  left: 0%;
+  top: 9%;
+  left: 10%;
   z-index: 1000;
   transition-delay: 5s;
 }
@@ -232,5 +232,7 @@
 
 }
 @media screen and (min-width: 650px) {
- 
+  .Profile_Menu {
+    display: none;
+  }
 }
