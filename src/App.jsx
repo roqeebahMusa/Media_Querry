@@ -1,11 +1,11 @@
 import './App.css'
-import Header from './Components/Header/Header'
 import Facebook from './Components/Header/Facebook'
+import Home from './Components1/Home'
 function App() {
   return (
     <div className="App">
-      <Header/>
       {/* <Facebook /> */}
+      <Home />
     </div>
   )
 }
