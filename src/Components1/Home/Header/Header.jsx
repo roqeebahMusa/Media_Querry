@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Header.css'
 import { FaTimes, FaBeer } from 'react-icons/fa'
 import { FiAlignJustify } from 'react-icons/fi'
-import Nav from './nav'
+import Nav from '../../../Components/Header/nav'
 const Header = ({Profile}) => {
     const [toggle, settoggle] = useState(true)
     const handletoggle = () => { settoggle(!toggle) }

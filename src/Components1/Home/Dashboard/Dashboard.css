@@ -1,15 +1,10 @@
 .Dash_Main {
   min-height: 91vh;
   width: 100%;
-  /* background: linear-gradient(
-    to right top,
-    rgb(101, 223, 201, 0.8) 10%,
-    rgba(81, 135, 211, 0.6),
-    rgba(108, 219, 235, 0.6)
-  ); */
   background: linear-gradient(
     to right top,
     rgb(101, 223, 201, 0.8) 10%,
+    rgba(81, 135, 211, 0.6),
     rgba(108, 219, 235, 0.6)
   );
   display: flex;

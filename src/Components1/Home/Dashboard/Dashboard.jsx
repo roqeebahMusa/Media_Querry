@@ -8,10 +8,8 @@ import { FaFantasyFlightGames } from "react-icons/fa";
 import { GiConsoleController } from "react-icons/gi";
 import { VscLibrary } from "react-icons/vsc";
 import { BsSearch } from "react-icons/bs";
-// import Image from './Image.jpeg'
-// import Controle from './Controle.png'
-import Image from './image.jpg'
-import Controle from './image.jpg'
+import Image from './Image.jpeg'
+import Controle from './Controle.png'
 function Dashboard() {
     const style={
         borderRadius:50
@@ -20,9 +18,8 @@ function Dashboard() {
         <div className='Profile1'>
             <div className='Profile_imgCont' >
                 <img src={Image} />
-                {/* <h4>Oparah Nkume</h4> */}
-                <h4>OBINNA</h4>
-                <p>DEV</p>
+                <h4>Oparah Nkume</h4>
+                <p>CEO</p>
             </div>
 
             <div className='Profile_icons'>
@@ -51,10 +48,8 @@ function Dashboard() {
                         <div className='Profile1'>
                             <div className='Profile_imgCont' >
                                 <img src={Image} />
-                                {/* <h4>Oparah Nkume</h4>
-                                <p>CEO</p> */}
-                                 <h4>OBINNA</h4>
-                <p>DEV</p>
+                                <h4>Oparah Nkume</h4>
+                                <p>CEO</p>
                             </div>
 
                             <div className='Profile_icons'>
@@ -86,7 +81,7 @@ function Dashboard() {
                             <Card img={Image}
                                 h4='Spiderman-Miles Morales'
                                 text='PS5 version'
-                                per='60%'
+                                per='20%'
                                 progress={progress2}
                             />
                             <Card img={Image}
